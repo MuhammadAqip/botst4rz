@@ -553,8 +553,8 @@ scdl.setClientID("iZIs9mchVcX5lhVRyQGGAYlNPVldzAoX");
 scdl("https://m.soundcloud.com/abdul-muttaqin-701361735/lucid-dreams-gustixa-ft-vict-molina")
     .pipe(fs.createWriteStream("mp3/song.mp3"));
 }
- else if (text.includes("?tts")) {
-  var teks = text.split("?ttsid ")[1];
+ else if (text.includes("?ttsid")) {
+  var teks = text.split("?ttsid")[1];
   var path = require('path');
   var text1 = teks.slice(6);
   text1 = suara;
