@@ -397,7 +397,7 @@ conn.sendMessage(id, 'kirim ?ptl cewek/cowok\n\nContoh: ?ptl cewek' ,MessageType
    }
 
 
-   if (text.includes("?nulis"))
+   if (text.includes("!nulis"))
    {
 
       const
