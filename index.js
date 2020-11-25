@@ -569,7 +569,7 @@ scdl("https://m.soundcloud.com/abdul-muttaqin-701361735/lucid-dreams-gustixa-ft-
 gtts.save(filepath, suara, function() {
   console.log(`${filepath} MP3 SAVED!`)
 });
-await new Promise(resolve => setTimeout(resolve, 500));*/
+await new Promise(resolve => setTimeout(resolve, 500));
 
 if(suara.length > 200){ // check longness of text, because otherways google translate will give me a empty file
   msg.reply("Text kepanjangan bro!")
